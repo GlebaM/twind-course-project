@@ -8,8 +8,8 @@ module.exports = {
         'body':['Lato', 'sans-serif']
       },
       colors:{
-      'pri':"#0083FF",
-      'sec':"#081F4D",
+      "pri":"#081F4D",
+      "sec":"#0083FF",
       "our-bg":"#D9E6FF",
       "gen":"#3B4D71"
       }

@@ -5,11 +5,200 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind News</title>
+    <title>Tailwind News Blog</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="font-body">
+    <div class="containter py-12 px-4 max-w-6xl mx-auto">
+        <section class="text-center py-2">
+            <h1 class="text-5xl font-title text-sec">
+                Latest Blog <br>
+                <span class="text-pri">Posts</span>
+            </h1>
+            <p class="text-pri my-6">Welcome to our blog site. Get our latest news<br>with just one search!
+            </p>
+            <input type="search" name="" id=""
+                class="bg-our-bg px-8 p-3 rounded-3xl shadow-inner ring-sec border-none focus:outline-none focus:ring-1 text-sm"
+                placeholder="Search for...">
+        </section>
+        <section class="main my-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-8">
+                <div class="card-border rounded-3xl col-span-1 md:col-span-2
+                    lg:col-span-3 hover:shadow-xl overflow-hidden">
+                    <a href="#" class=" flex no-underline text-pri flex-col md:flex-row">
+                        <div class="md:w-1/2">
+                            <img src="img/img1.jpg" alt="" class="h-full w-full object-cover">
+                        </div>
+                        <div class="m-4 md:w-1/2 md:ml-4 md:my-8 space-y-4">
+                            <button
+                                class=" uppercase px-4 py-1 leading-relaxed text-sec text-sm bg-our-bg outline-none border-none cursor-pointer rounded focus:bg-blue-400 focus:text-white transition-all duration-200">Featured</button>
+                            <h3 class="font-title text-pri hover:text-sec transition duration-300 text-2xl">
+                                Why is it
+                                important
+                                to follow a Brand Style
+                                Guide for your
+                                business?
+                            </h3>
+                            <p>A brand style guide is also known as a brand guide or brand book. For many companies, the
+                                guide is essential to maintain their brand identity. For them, such a well-thought-of
+                                guide becomes their key document, which serves as a guide to create a variety of content
+                                for brand marketing.
+                            </p>
+                            <div class="flex space-x-4 items-center">
+                                <div>
+                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="text-pri font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
+                    <a href="#" class="no-underline text-pri">
+                        <div class="">
+                            <img src="img/img2.jpg" alt="" class="h-full w-full rounded-3xl m-0.25">
+                        </div>
+                        <div class="m-4 space-y-4">
+                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-2xl">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit.</h2>
+                            <p>Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam eleifend finibus est
+                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
+                            </p>
+                            <div class="flex space-x-4 items-center">
+                                <div>
+                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
+                    <a href="#" class="no-underline text-pri">
+                        <div class="">
+                            <img src="img/img3.jpg" alt="" class="h-full w-full rounded-3xl m-0.25">
+                        </div>
+                        <div class="m-4 space-y-4">
+                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-2xl">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit.</h2>
+                            <p>Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam eleifend finibus est
+                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
+                            </p>
+                            <div class="flex space-x-4 items-center">
+                                <div>
+                                    <img src="img/author2.jpg" alt="" class="h-9 w-9 rounded-full">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
+                    <a href="#" class="no-underline text-pri">
+                        <div class="">
+                            <img src="img/img4.jpg" alt="" class="h-full w-full rounded-3xl m-0.25">
+                        </div>
+                        <div class="m-4 space-y-4">
+                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-2xl">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit.</h2>
+                            <p>Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam eleifend finibus est
+                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
+                            </p>
+                            <div class="flex space-x-4 items-center">
+                                <div>
+                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-border col-span-1 lg:col-span-2 text-pri hover:shadow-xl no-underline rounded-2xl">
+                    <a href="#" class="no-underline text-pri">
+                        <div class="">
+                            <img src="img/img5.jpg" alt="" class="h-full w-full rounded-3xl m-0.25">
+                        </div>
+                        <div class="m-4 space-y-4">
+                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-2xl">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit.</h2>
+                            <p>Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam eleifend finibus est
+                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
+                            </p>
+                            <div class="flex space-x-4 items-center">
+                                <div>
+                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
+                    <a href="#" class="no-underline text-pri">
+                        <div class="">
+                            <img src="img/img6.jpg" alt="" class="h-full w-full rounded-3xl m-0.25">
+                        </div>
+                        <div class="m-4 space-y-4">
+                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-2xl">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit.</h2>
+                            <p>Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam eleifend finibus est
+                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
+                            </p>
+                            <div class="flex space-x-4 items-center">
+                                <div>
+                                    <img src="img/author2.jpg" alt="" class="h-9 w-9 rounded-full">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-span-1 lg:col-span-2 text-pri hover:shadow-xl no-underline border-2 border-gray-400">
+                    <a href="#" class=" ">
+                        <div class="">
+                            <img src="img/img2.jpg" alt="" class="h-full w-full rounded-3xl m-0.25">
+                        </div>
+                        <div class="">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+                                repudiandae
+                                reprehenderit, est magnam facere quaereiciendis rerum. Saepe quiadoloremque nisi qui,
+                                corporis pariatur quod tempora ad,fuga neque perspiciatis!
+                            </p>
+                            <div class="">
+                                <img src="img/author1.jpg" alt="" class="h-9 rounded-full">
+                                <div>
+                                    <h5>John Doe</h5>
+                                    <p class="font-bold">Brand Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </div>
 
 </body>
 
