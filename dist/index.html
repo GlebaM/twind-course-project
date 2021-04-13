@@ -11,72 +11,52 @@
 </head>
 
 <body class="font-body">
-    <div class="containter py-12 px-4 max-w-6xl mx-auto">
+    <header class="bg-pri max-w-7xl mx-auto flex focus-within:">
+        <div class="mx-auto  max-w-5xl text-white font-title tracking-wider flex flex-1 items-center justify-between">
+
+        </div>
+
+    </header>
+    <div class="containter py-14 px-4 max-w-5xl mx-auto">
         <section class="text-center py-2">
-            <h1 class="text-5xl font-title text-sec">
+            <h1 class="text-3xl md:text-5xl sm:font-bold font-title text-sec">
                 Latest Blog <br>
                 <span class="text-pri">Posts</span>
             </h1>
-            <p class="text-pri my-6">Welcome to our blog site. Get our latest news<br>with just one search!
+            <p class="text-pri my-6 max-w-sm mx-auto">Welcome to our blog site. Get our latest news with just one
+                search!
             </p>
-            <input type="search" name="" id=""
-                class="bg-our-bg px-8 p-3 rounded-3xl shadow-inner ring-sec border-none focus:outline-none focus:ring-1 text-sm"
-                placeholder="Search for...">
+            <input type="search" name="" id="" class="header-input" placeholder="Search for...">
         </section>
-        <p class="text-2xl"><i class="fas fa-sad-tear text-red-400 "></i>wad</p>
+        <!-- <p class="text-2xl"><i class="fa fa-calculator text-red-400 "></i>wad</p> -->
         <section class="main my-12">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-8">
                 <div class="card-border rounded-3xl col-span-1 md:col-span-2
-                    lg:col-span-3 hover:shadow-xl overflow-hidden">
-                    <a href="#" class=" flex no-underline text-pri flex-col md:flex-row">
+                    lg:col-span-3 overflow-hidden">
+                    <a href="#" class=" flex  flex-col md:flex-row">
                         <div class="md:w-1/2">
-                            <img src="img/img1.jpg" alt="" class="h-full w-full object-cover">
+                            <img src="img/img1.jpg" alt="" class="card-img object-cover md:rounded-none">
                         </div>
                         <div class="m-4 md:w-1/2 md:ml-4 md:my-8 space-y-4">
-                            <button
-                                class=" uppercase px-4 py-1 leading-relaxed text-sec text-sm bg-our-bg outline-none border-none cursor-pointer rounded focus:bg-blue-400 focus:text-white transition-all duration-200">Featured</button>
-                            <h3 class="font-title text-pri hover:text-sec transition duration-300 text-xl  lg:text-2xl">
+                            <button class=" button-featured">
+                                Featured
+                            </button>
+                            <h3 class="card-header active:outline-none ">
                                 Why is it
-                                important
                                 to follow a Brand Style
                                 Guide for your
                                 business?
                             </h3>
-                            <p class="lg:text-xl">A brand style guide is also known as a brand guide or brand book. For
+                            <p class="lg:text-xl text-justify">A brand style guide is also known as a brand guide or
+                                brand book. For
                                 many companies, the
                                 guide is essential to maintain their brand identity. For them, such a well-thought-of
                                 guide becomes their key document, which serves as a guide to create a variety of content
                                 for brand marketing.
                             </p>
-                            <div class="flex space-x-4 items-center">
+                            <div class="card-footer">
                                 <div>
-                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
-                                </div>
-                                <div class="leading-tight">
-                                    <div class="text-pri font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
-                    <a href="#" class="no-underline text-pri">
-                        <div class="">
-                            <img src="img/img2.jpg" alt="" class="h-full w-full rounded-2xl m-0.25">
-                        </div>
-                        <div class="m-4 space-y-4">
-                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-xl  lg:text-2xl">
-                                Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit.</h2>
-                            <p class="lg:text-xl">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam
-                                eleifend finibus est
-                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
-                            </p>
-                            <div class="flex space-x-4 items-center">
-                                <div>
-                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                    <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
                                     <div class="font-bold text-xm">John Doe</div>
@@ -86,22 +66,23 @@
                         </div>
                     </a>
                 </div>
-                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
-                    <a href="#" class="no-underline text-pri">
-                        <div class="">
-                            <img src="img/img3.jpg" alt="" class="h-full w-full rounded-2xl m-0.25">
+                <div class="card-border">
+                    <a href="#">
+                        <div>
+                            <img src="img/img2.jpg" alt="" class="card-img m-0">
                         </div>
                         <div class="m-4 space-y-4">
-                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-xl  lg:text-2xl">
+                            <h3 class="card-header">
                                 Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit.</h2>
-                            <p class="lg:text-xl">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam
+                                dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                                lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
                             </p>
-                            <div class="flex space-x-4 items-center">
+                            <div class="card-footer">
                                 <div>
-                                    <img src="img/author2.jpg" alt="" class="h-9 w-9 rounded-full">
+                                    <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
                                     <div class="font-bold text-xm">John Doe</div>
@@ -111,22 +92,23 @@
                         </div>
                     </a>
                 </div>
-                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
-                    <a href="#" class="no-underline text-pri">
-                        <div class="">
-                            <img src="img/img4.jpg" alt="" class="h-full w-full rounded-2xl m-0.25">
+                <div class="card-border">
+                    <a href="#">
+                        <div>
+                            <img src="img/img3.jpg" alt="" class="card-img m-0.25">
                         </div>
                         <div class="m-4 space-y-4">
-                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-xl  lg:text-2xl">
+                            <h3 class="card-header">
                                 Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit.</h2>
-                            <p class="lg:text-xl">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam
+                                dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                                lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
                             </p>
-                            <div class="flex space-x-4 items-center">
+                            <div class="card-footer">
                                 <div>
-                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                    <img src="img/author2.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
                                     <div class="font-bold text-xm">John Doe</div>
@@ -136,25 +118,51 @@
                         </div>
                     </a>
                 </div>
-                <div class="card-border col-span-1 lg:col-span-2 text-pri hover:shadow-xl no-underline rounded-2xl">
-                    <a href="#" class="no-underline text-pri">
+                <div class="card-border">
+                    <a href="#">
                         <div class="">
-                            <img src="img/img5.jpg" alt=""
-                                class=" w-full lg:max-h-96 md:max-h-64 rounded-2xl m-0.25 object-cover">
+                            <img src="img/img4.jpg" alt="" class="card-img m-0.25">
                         </div>
                         <div class="m-4 space-y-4">
-                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-xl  lg:text-2xl">
+                            <h3 class="card-header">
+                                Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                                lorem. Aliquam
+                                eleifend finibus est
+                                et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
+                            </p>
+                            <div class="card-footer">
+                                <div>
+                                    <img src="img/author1.jpg" alt="" class="portrait-img">
+                                </div>
+                                <div class="leading-tight">
+                                    <div class="font-bold text-xm">John Doe</div>
+                                    <div class="text-xs">Brand Specialist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-border col-span-1 lg:col-span-2">
+                    <a href="#">
+                        <div>
+                            <img src="img/img5.1.jpg" alt="" class="card-img lg:max-h-96 md:object-cover">
+                        </div>
+                        <div class="m-4 space-y-4">
+                            <h3 class="card-header">
                                 Lorem
                                 ipsum
                                 dolor sit amet, consectetur adipiscing elit.
-                            </h2>
-                            <p class="lg:text-xl">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam
+                            </h3>
+                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                                lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
                             </p>
-                            <div class="flex space-x-4 items-center">
+                            <div class="card-footer">
                                 <div>
-                                    <img src="img/author1.jpg" alt="" class="h-9 w-9 rounded-full">
+                                    <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
                                     <div class="font-bold text-xm">John Doe</div>
@@ -164,34 +172,61 @@
                         </div>
                     </a>
                 </div>
-                <div class="card-border text-pri hover:shadow-xl no-underline rounded-2xl">
-                    <a href="#" class="no-underline text-pri">
-                        <div class="">
-                            <img src="img/img6.jpg" alt="" class="h-full w-full rounded-2xl m-0.25">
+                <div class="card-border flex flex-col justify-between">
+                    <a href="#" class="">
+                        <div>
+                            <img src="img/img6.jpg" alt="" class="card-img">
                         </div>
-                        <div class="m-4 space-y-4">
-                            <h2 class="font-title text-pri hover:text-sec transition duration-300 text-xl lg:text-2xl">
+                        <div class="m-4">
+                            <h3 class="card-header">
                                 Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit.</h2>
-                            <p class="lg:text-xl">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante lorem. Aliquam
+                                dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p class="lg:text-xl my-4 text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at
+                                ante lorem.
+                                Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
                             </p>
-                            <div class="flex space-x-4 items-center">
-                                <div>
-                                    <img src="img/author2.jpg" alt="" class="h-9 w-9 rounded-full">
-                                </div>
-                                <div class="leading-tight">
-                                    <div class="font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
-                                </div>
-                            </div>
+
                         </div>
                     </a>
+                    <div class="card-footer mx-4 relative mb-4">
+                        <div>
+                            <img src="img/author2.jpg" alt="" class="portrait-img ">
+                        </div>
+                        <div class="leading-tight">
+                            <div class="font-bold text-xm">John Doe</div>
+                            <div class="text-xs">Brand Specialist</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="text-center py-2 space-y-8">
+            <h1 class="text-5xl sm:font-bold font-title text-sec ">
+                Subscribe to Our
+                <br>
+                <span class="text-pri">Blog</span>
+            </h1>
+            <p class="text-pri max-w-sm mx-auto">Please subscribe to get regular updates and featured news
+                through
+                your email!
+            </p>
+            <div class=" space-y-8 sm:space-y-0">
+                <input type="email" name="" id="" class="header-input" placeholder="E-mail address">
+                <button type="submit"
+                    class="text-white bg-sec hover:bg-purple-600 p-2.5 px-12 mb-0 sm:-ml-12 sm:mt-0 rounded-full">Submit</button>
+            </div>
+        </section>
+
     </div>
+    <footer class="bg-pri max-w-7xl mx-auto h-24 flex focus-within:">
+        <div class="mx-auto  max-w-5xl text-white font-title tracking-wider flex flex-1 items-center justify-between">
+            <p class="ml-4 mr-4 sm:ml-10 text-center">Tailwind CSS</p>
+            <p class="mr-4 sm:mr-10 text-center">All rights reserved @2021</p>
+        </div>
+
+    </footer>
 
 </body>
 
