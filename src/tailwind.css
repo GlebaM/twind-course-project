@@ -25,7 +25,7 @@
 }
 
 .card-header{
-    @apply font-title hover:text-sec transition duration-300 text-xl  lg:text-2xl tracking-wide;
+    @apply font-title hover:text-sec transition duration-300 text-xl  md:text-2xl md:tracking-wide;
 }
 
 .card-footer{

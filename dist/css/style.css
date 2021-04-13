@@ -32671,7 +32671,6 @@ video {
 }
 
 .card-header{
-  letter-spacing: 0.025em;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -32680,10 +32679,11 @@ video {
   transition-duration: 300ms;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .card-header{
     font-size: 1.5rem;
     line-height: 2rem;
+    letter-spacing: 0.025em;
   }
 }
 
