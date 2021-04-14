@@ -11,15 +11,32 @@
 </head>
 
 <body class="font-body">
-    <header class="bg-pri max-w-7xl mx-auto flex focus-within:">
-        <div class="mx-auto  max-w-5xl text-white font-title tracking-wider flex flex-1 items-center justify-between">
-
+    <header class="shadow-md">
+        <div class="max-w-6xl  max-h-48 mx-auto px-4 py-7 font-title tracking-wide md:flex justify-between">
+            <aside
+                class="header-aside flex items-center text-sec space-x-3 text-xl font-bold cursor-pointer hover:text-pri transition duration-200">
+                <i class="fas fa-fan "> </i>
+                <p class="">TailwindNews</p>
+            </aside>
+            <div class="inline">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <nav class="nav-ul>">
+                <ul class="text-pri text-lg space-x-4 list-disc">
+                    <li class="md:inline nav-li-item"><a href="#">Home</a></li>
+                    <li class="md:inline nav-li-item"><a href="#">About</a></li>
+                    <li class="md:inline nav-li-item"><a href="#">Contact</a></li>
+                    <li class="md:inline nav-li-item"><a href="#">Product & Shop</a></li>
+                </ul>
+            </nav>
         </div>
 
     </header>
-    <div class="containter py-14 px-4 max-w-5xl mx-auto">
+    <div class="containter py-14 px-4 max-w-6xl mx-auto">
         <section class="text-center py-2">
-            <h1 class="text-3xl md:text-5xl sm:font-bold font-title text-sec">
+
+            <h1 class="title-text">
                 Latest Blog <br>
                 <span class="text-pri">Posts</span>
             </h1>
@@ -29,24 +46,27 @@
             <input type="search" name="" id="" class="header-input" placeholder="Search for...">
         </section>
         <section class="main my-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-8">
-                <div class="card-border rounded-3xl col-span-1 md:col-span-2
-                    lg:col-span-3 overflow-hidden">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 sm:gap-y-8 gap-x-5 lg:gap-y-14 lg:gap-x-10">
+                <div class="card-border rounded-3xl col-span-1 md:col-span-2 lg:col-span-3 overflow-hidden">
                     <a href="#" class=" flex  flex-col md:flex-row">
                         <div class="md:w-1/2">
-                            <img src="img/img1.jpg" alt="" class="card-img object-cover md:rounded-none">
+                            <img src="img/img1.jpg" alt="" class="card-img object-cover md:rounded-none align-bottom">
                         </div>
                         <div class="m-4 md:w-1/2 md:ml-4 md:my-8 space-y-4">
-                            <button class=" button-featured">
+                            <p class="featured">
                                 Featured
-                            </button>
-                            <h3 class="card-header active:outline-none ">
+                            </p>
+                            <h3 class="card-header text-xl md:text-2xl active:outline-none">
                                 Why is it
                                 to follow a Brand Style
                                 Guide for your
                                 business?
                             </h3>
-                            <p class="lg:text-xl text-justify">A brand style guide is also known as a brand guide or
+                            <p class="card-paragraph text-base sm:text-lg ">A brand style guide is
+                                also known as a
+                                brand
+                                guide or
                                 brand book. For
                                 many companies, the
                                 guide is essential to maintain their brand identity. For them, such a well-thought-of
@@ -58,8 +78,8 @@
                                     <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
-                                    <div class="font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
+                                    <div class="font-bold text-pri text-sm">John Doe</div>
+                                    <div class="text-xs text-gen">Brand Specialist</div>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +94,8 @@
                             <h3 class="card-header">
                                 Lorem ipsum
                                 dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                            <p class="card-paragraph">Nam a vulputate arcu. Nunc ut ante leo. Donec at
+                                ante
                                 lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
@@ -84,8 +105,8 @@
                                     <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
-                                    <div class="font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
+                                    <div class="font-bold text-sm">John Doe</div>
+                                    <div class="text-xs text-gen">Brand Specialist</div>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +121,8 @@
                             <h3 class="card-header">
                                 Lorem ipsum
                                 dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                            <p class="card-paragraph">Nam a vulputate arcu. Nunc ut ante leo. Donec at
+                                ante
                                 lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
@@ -110,8 +132,8 @@
                                     <img src="img/author2.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
-                                    <div class="font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
+                                    <div class="font-bold text-sm">John Doe</div>
+                                    <div class="text-xs text-gen">Brand Specialist</div>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +148,8 @@
                             <h3 class="card-header">
                                 Lorem ipsum
                                 dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                            <p class="card-paragraph">Nam a vulputate arcu. Nunc ut ante leo. Donec at
+                                ante
                                 lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
@@ -136,8 +159,8 @@
                                     <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
-                                    <div class="font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
+                                    <div class="font-bold text-sm">John Doe</div>
+                                    <div class="text-xs text-gen">Brand Specialist</div>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +177,8 @@
                                 ipsum
                                 dolor sit amet, consectetur adipiscing elit.
                             </h3>
-                            <p class="lg:text-xl text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at ante
+                            <p class="card-paragraph">Nam a vulputate arcu. Nunc ut ante leo. Donec at
+                                ante
                                 lorem. Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
@@ -164,8 +188,8 @@
                                     <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
                                 <div class="leading-tight">
-                                    <div class="font-bold text-xm">John Doe</div>
-                                    <div class="text-xs">Brand Specialist</div>
+                                    <div class="font-bold text-sm">John Doe</div>
+                                    <div class="text-xs text-gen">Brand Specialist</div>
                                 </div>
                             </div>
                         </div>
@@ -180,13 +204,13 @@
                             <h3 class="card-header">
                                 Lorem ipsum
                                 dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p class="lg:text-xl my-4 text-justify">Nam a vulputate arcu. Nunc ut ante leo. Donec at
+                            <p class="my-4 card-paragraph">Nam a vulputate arcu. Nunc ut ante leo.
+                                Donec at
                                 ante lorem.
                                 Aliquam
                                 eleifend finibus est
                                 et consequat. Nunc elit metus, iaculis tincidunt nulla et, auctor scelerisque lacus.
                             </p>
-
                         </div>
                     </a>
                     <div class="card-footer mx-4 relative mb-4">
@@ -194,39 +218,36 @@
                             <img src="img/author2.jpg" alt="" class="portrait-img ">
                         </div>
                         <div class="leading-tight">
-                            <div class="font-bold text-xm">John Doe</div>
-                            <div class="text-xs">Brand Specialist</div>
+                            <div class="font-bold text-sm">John Doe</div>
+                            <div class="text-xs text-gen">Brand Specialist</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="text-center py-2 space-y-8">
-            <h1 class="text-5xl sm:font-bold font-title text-sec ">
+            <h1 class="title-text">
                 Subscribe to Our
                 <br>
                 <span class="text-pri">Blog</span>
             </h1>
-            <p class="text-pri max-w-sm mx-auto">Please subscribe to get regular updates and featured news
+            <p class="max-w-sm mx-auto text-gen">Please subscribe to get regular updates and featured news
                 through
                 your email!
             </p>
             <div class=" space-y-8 sm:space-y-0">
                 <input type="email" name="" id="" class="header-input" placeholder="E-mail address">
-                <button type="submit"
-                    class="text-white bg-sec hover:bg-purple-600 p-2.5 px-12 mb-0 sm:-ml-12 sm:mt-0 rounded-full">Submit</button>
+                <button type="submit" class="submit-button">Submit</button>
             </div>
         </section>
 
     </div>
-    <footer class="bg-pri max-w-7xl mx-auto h-24 flex focus-within:">
-        <div class="mx-auto  max-w-5xl text-white font-title tracking-wider flex flex-1 items-center justify-between">
+    <footer class="bg-pri mx-auto h-24 flex">
+        <div class="footer-content">
             <p class="ml-4 mr-4 sm:ml-10 text-center">Tailwind CSS</p>
             <p class="mr-4 sm:mr-10 text-center">All rights reserved @2021</p>
         </div>
-
     </footer>
-
 </body>
 
 </html>

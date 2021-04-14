@@ -8,12 +8,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.header-aside{
+    @apply px-4;
+}
+
+.title-text{
+    @apply text-3xl md:text-5xl sm:font-bold font-title text-sec;
+}
+
 .header-input{
     @apply bg-our-bg px-8 p-3 rounded-full shadow-inner ring-sec border-none focus:outline-none focus:ring-1 text-sm;
 }
 
-.button-featured{
-    @apply uppercase px-4 py-1 leading-relaxed text-sec text-sm bg-our-bg outline-none border-none cursor-pointer rounded focus:bg-blue-400 focus:text-white transition-all duration-200;
+.featured{
+    @apply uppercase px-3 py-1 leading-relaxed text-sec text-xs bg-our-bg rounded inline;
 }
 
 .card-border {
@@ -21,11 +29,15 @@
 }
 
 .card-img{
-    @apply h-full w-full rounded-b-2xl;
+    @apply h-full w-full rounded-b-2xl;  
 }
 
 .card-header{
-    @apply font-title hover:text-sec transition duration-300 text-xl  md:text-2xl md:tracking-wide;
+    @apply font-title hover:text-sec transition duration-300 text-lg  md:text-xl md:tracking-wide font-semibold;
+}
+
+.card-paragraph{
+    @apply lg:text-xl text-justify text-gen;
 }
 
 .card-footer{
@@ -36,5 +48,14 @@
     @apply h-9 w-9 rounded-full;
 }
 
+.nav-li-item{
+    @apply hover:text-sec transition duration-200;
+}
 
+.submit-button{
+    @apply text-white bg-sec hover:bg-gen focus:ring-1 focus:ring-our-bg ring-inset focus:outline-none focus:ring-offset-1 focus:ring-offset-gen p-2.5 px-12 mb-0 sm:-ml-12 sm:mt-0 rounded-full transform duration-150;
+}
 
+.footer-content{
+    @apply mx-auto max-w-6xl text-white text-sm sm:text-base font-title tracking-wider flex flex-1 items-center justify-between;
+}
