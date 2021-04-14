@@ -9,7 +9,9 @@
 @tailwind utilities;
 
 
-
+.aside-div{
+    @apply flex flex-1 items-center hover:text-gen transition-all duration-200 space-x-3;
+}
 .icon-container{
     @apply text-sec text-xl font-bold cursor-pointer;
 }
@@ -17,7 +19,9 @@
 .menu-button-icon{
     @apply bg-sec hover:bg-gen transition duration-200 text-white py-1.5 px-3 rounded-md ;
 }
-
+.nav-ul{
+    @apply md:inline-block text-pri text-lg space-x-4 space-y-1 ml-4 mt-2;
+}
 .nav-item{
     @apply hover:text-sec transition duration-200;
 }

@@ -1,10 +1,7 @@
 module.exports = {
   purge: [
-    // './dist/index.html',
-    // './src/tailwind.css',
-    // './dist/css/style.css',
-    // './dist/js/script.js',
-    // './dist/font-awesome/css'
+    "./dist/index.html",    
+    "./dist/js/script.js",
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
