@@ -8,8 +8,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.header-aside{
-    @apply px-4;
+
+
+.icon-container{
+    @apply text-sec text-xl font-bold cursor-pointer;
+}
+
+.menu-button-icon{
+    @apply bg-sec hover:bg-gen transition duration-200 text-white py-1.5 px-3 rounded-md ;
+}
+
+.nav-item{
+    @apply hover:text-sec transition duration-200;
 }
 
 .title-text{
@@ -46,10 +56,6 @@
 
 .portrait-img{
     @apply h-9 w-9 rounded-full;
-}
-
-.nav-li-item{
-    @apply hover:text-sec transition duration-200;
 }
 
 .submit-button{

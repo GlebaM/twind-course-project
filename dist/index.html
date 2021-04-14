@@ -12,22 +12,26 @@
 
 <body class="font-body">
     <header class="shadow-md">
-        <div class="max-w-6xl  max-h-48 mx-auto px-4 py-7 font-title tracking-wide md:flex justify-between">
-            <aside
-                class="header-aside flex items-center text-sec space-x-3 text-xl font-bold cursor-pointer hover:text-pri transition duration-200">
-                <i class="fas fa-fan "> </i>
-                <p class="">TailwindNews</p>
-            </aside>
-            <div class="inline">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-times"></i>
+        <div class="max-w-6xl mx-auto px-6 py-7 font-title tracking-wide md:flex justify-between">
+            <div class="flex items-center">
+                <aside class="flex flex-1 items-center">
+                    <div
+                        class="icon-container flex flex-1 items-center hover:text-gen transition-all duration-200 space-x-3">
+                        <i class="fas fa-fan"> </i>
+                        <p class="">TailwindNews</p>
+                    </div>
+                </aside>
+                <div class="icon-click icon-container md:hidden">
+                    <i class="fas fa-bars menu-button-icon"></i>
+                    <i class="fas fa-times menu-button-icon hidden"></i>
+                </div>
             </div>
-            <nav class="nav-ul>">
-                <ul class="text-pri text-lg space-x-4 list-disc">
-                    <li class="md:inline nav-li-item"><a href="#">Home</a></li>
-                    <li class="md:inline nav-li-item"><a href="#">About</a></li>
-                    <li class="md:inline nav-li-item"><a href="#">Contact</a></li>
-                    <li class="md:inline nav-li-item"><a href="#">Product & Shop</a></li>
+            <nav class="md:flex items-center">
+                <ul class="hidden md:inline-block text-pri text-lg space-x-4 space-y-1 md:space-y-0  ml-4 mt-2">
+                    <li class="md:inline nav-item ml-4"><a href="#">Home</a></li>
+                    <li class="md:inline nav-item"><a href="#">About</a></li>
+                    <li class="md:inline nav-item"><a href="#">Contact</a></li>
+                    <li class="md:inline nav-item"><a href="#">Product & Shop</a></li>
                 </ul>
             </nav>
         </div>
@@ -73,7 +77,7 @@
                                 guide becomes their key document, which serves as a guide to create a variety of content
                                 for brand marketing.
                             </p>
-                            <div class="card-footer">
+                            <div class="pcard-footer">
                                 <div>
                                     <img src="img/author1.jpg" alt="" class="portrait-img">
                                 </div>
@@ -226,11 +230,11 @@
             </div>
         </section>
         <section class="text-center py-2 space-y-8">
-            <h1 class="title-text">
+            <h4 class="title-text">
                 Subscribe to Our
                 <br>
                 <span class="text-pri">Blog</span>
-            </h1>
+            </h4>
             <p class="max-w-sm mx-auto text-gen">Please subscribe to get regular updates and featured news
                 through
                 your email!
@@ -248,6 +252,7 @@
             <p class="mr-4 sm:mr-10 text-center">All rights reserved @2021</p>
         </div>
     </footer>
+    <script src="/dist/js/script.js"></script>
 </body>
 
 </html>
