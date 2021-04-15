@@ -13,25 +13,25 @@
 <body class="font-body">
     <header class="shadow-md">
         <div class="max-w-6xl mx-auto px-6 py-7 font-title tracking-wide md:flex justify-between">
-            <div class="flex items-center">
-                <aside class="flex flex-1 items-center">
-                    <div
-                        class="icon-container flex flex-1 items-center hover:text-gen transition-all duration-200 space-x-3">
+            <div class="flex items-center justify-between">
+                <aside class="flex items-center">
+                    <a class="aside-div icon-container justify-self-start">
                         <i class="fas fa-fan"> </i>
                         <p class="">TailwindNews</p>
-                    </div>
+                    </a>
                 </aside>
                 <div class="icon-click icon-container md:hidden">
                     <i class="fas fa-bars menu-button-icon"></i>
                     <i class="fas fa-times menu-button-icon hidden"></i>
                 </div>
             </div>
-            <nav class="md:flex items-center">
-                <ul class="hidden md:inline-block text-pri text-lg space-x-4 space-y-1 md:space-y-0  ml-4 mt-2">
-                    <li class="md:inline nav-item ml-4"><a href="#">Home</a></li>
-                    <li class="md:inline nav-item"><a href="#">About</a></li>
-                    <li class="md:inline nav-item"><a href="#">Contact</a></li>
-                    <li class="md:inline nav-item"><a href="#">Product & Shop</a></li>
+            <nav class="md:flex md:items-center">
+                <ul class="nav-ul md:space-y-0 md:mt-0 hidden">
+                    <li class="md:inline ml-4 bg-blue-300"><a href="#" class="nav-item active:font-extrabold">Home</a>
+                    </li>
+                    <li class="md:inline"><a href="#" class="nav-item">About</a></li>
+                    <li class="md:inline"><a href="#" class="nav-item">Contact</a></li>
+                    <li class="md:inline"><a href="#" class="nav-item">Product & Shop</a></li>
                 </ul>
             </nav>
         </div>
@@ -49,7 +49,7 @@
             </p>
             <input type="search" name="" id="" class="header-input" placeholder="Search for...">
         </section>
-        <section class="main my-12">
+        <section class="my-12">
             <div
                 class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 sm:gap-y-8 gap-x-5 lg:gap-y-14 lg:gap-x-10">
                 <div class="card-border rounded-3xl col-span-1 md:col-span-2 lg:col-span-3 overflow-hidden">
