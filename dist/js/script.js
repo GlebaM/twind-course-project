@@ -14,7 +14,6 @@ clickNavI.addEventListener('click', function() {
 })
 
 liItems.forEach(item => item.addEventListener('click', function() {
-        console.log('wahsv')
         iconArr[0].classList.remove('hidden');
         iconArr[1].classList.add('hidden');
         showNaw.classList.add('hidden');
