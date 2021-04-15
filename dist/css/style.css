@@ -546,11 +546,6 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.bg-blue-300{
-  --tw-bg-opacity: 1;
-  background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
-}
-
 .bg-pri{
   --tw-bg-opacity: 1;
   background-color: rgba(8, 31, 77, var(--tw-bg-opacity));
