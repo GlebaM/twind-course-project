@@ -23,7 +23,7 @@
     @apply md:inline-block text-pri text-lg space-x-4 space-y-1 ml-4 mt-2;
 }
 .nav-item{
-    @apply hover:text-sec transition duration-200;
+    @apply hover:text-sec hover:underline transition-all duration-200;
 }
 
 .title-text{

@@ -1,8 +1,9 @@
 module.exports = {
-  purge: [
-    "./dist/index.html",    
-    "./dist/js/script.js",
-  ],
+  purge: {
+    enabled: true,
+    content:["./dist/index.html",
+  "./dist/js/script.js",],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {

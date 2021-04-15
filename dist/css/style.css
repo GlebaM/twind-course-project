@@ -32641,6 +32641,7 @@ video {
 .nav-item:hover{
   --tw-text-opacity: 1;
   color: rgba(0, 131, 255, var(--tw-text-opacity));
+  text-decoration: underline;
 }
 
 .nav-item{
